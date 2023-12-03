@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     outline: none;
+    list-style: none;
+    text-decoration: none;
     font-family: sans-serif;
 }
 
@@ -10,4 +12,13 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+}
+header .nav-list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+header  .menu-logo{
+    display: none;
 }
