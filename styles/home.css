@@ -69,3 +69,34 @@ header nav.showed_Nav .nav-list li:hover {
         font-size: 20px;
     }
 }
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.banner ul img{
+    width: 700px
+}
+.banner ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow-x: hidden;
+    width: 700px;
+    gap: 1rem;
+    padding: 10px;
+    border: 1px solid red;
+}
+.banner .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .btns div {
+    width: 50px ;
+    height: 50px;
+    border-radius: 50px;
+    background: red;
+}
