@@ -39,4 +39,14 @@ header  .menu-logo{
         display: none;
 
     }
+    nav.onscreen {
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        height: 100vh;
+        background: #999;
+    }
+    nav.onscreen .nav-list{
+        display: block;
+    }
 }
