@@ -29,3 +29,12 @@ header .nav-list{
 header  .menu-logo{
     display: none;
 }
+
+@media screen and (max-width: 547px){
+    nav .menu-logo {
+        display: block;
+    }
+    nav .nav-list{
+        display: none;
+    }
+}
