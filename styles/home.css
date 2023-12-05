@@ -21,3 +21,6 @@ header nav i {
 header nav .nav-list {
     display: none;
 }
+header nav ul.showed_Nav_List {
+    display: block;
+}
