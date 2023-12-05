@@ -29,6 +29,15 @@ header .nav-list{
 header  .menu-logo{
     display: none;
 }
+nav.onscreen{
+    width: 100%;
+    height: 100vh;
+    opacity: .7;
+    background: #999;
+}
+nav.onscreen .menu-logo{
+    display: none;
+}
 
 @media screen and (max-width: 547px){
     nav .menu-logo {
